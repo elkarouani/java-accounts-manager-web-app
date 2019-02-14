@@ -44,7 +44,8 @@ public class GererUser extends HttpServlet {
 		u.setPrenom(request.getParameter("prenom"));
 		u.setAdresse(request.getParameter("adresse"));
 		if (UserDAO.addUser(u) == 1) {
-			response.sendRedirect("welcome.jsp");
+//			response.sendRedirect("welcome.jsp");
+			request.getRequestDispatcher("welcome.jsp").forward(request, response);
 		} else {
 			response.sendRedirect("index.jsp");
 		}

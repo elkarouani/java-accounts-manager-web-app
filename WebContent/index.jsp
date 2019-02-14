@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post" action="/GestionComptes/GererUsers">
+	<form method="post" action="/GestionComptes/GererUser">
 		cin <input type="text" name="cin" value="" /><br /><br />
 		nom <input type="text" name="nom" value="" /><br /><br />
 		prenom <input type="text" name="prenom" value="" /><br /><br />
