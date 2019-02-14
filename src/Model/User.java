@@ -14,6 +14,10 @@ public class User {
 		this.adresse = adresse;
 	}
 	
+	public User() {
+		super();
+	}
+
 	public String getCin() {
 		return cin;
 	}
